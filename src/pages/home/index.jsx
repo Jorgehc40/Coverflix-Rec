@@ -17,7 +17,7 @@ const Home = () => {
     const obterFilmes = async () => {
         try {
             const { data } = await axios.get("https://api.themoviedb.org/3/movie/popular", {
-                headers: { "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMGM4ODlhZWM2ZDkxNmU0NzIxZjQ5ZDllNDgwNTI3NyIsInN1YiI6IjY0ZTdjOTcyNTk0Yzk0MDBlMjVmNDk2ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ou0PruLVIpuHiDestuTPf_gHL3gU9Y8oi94232PkUKk" }
+                headers: { "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMGM4ODlhZWM2ZDkxNmU0NzIxZjQ5ZDllNDgwNTI3NyIsInN1YiI6IjY0ZTdjOTcyNTk0Yzk0MDBlMjVmNDk2ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ou0PruLVIpuHiDeptTPf_gHL3gU9Y8oi94232PkUKk" }
             });
 
             setFilmes(data.results);
