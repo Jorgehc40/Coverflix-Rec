@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { MainConteiner } from '../home/styles';
 
 export const MoviePageContainer = styled.div`
     display: flex;
@@ -61,3 +62,9 @@ export const Header = styled.header`
     }
 `;
 
+export const FooterComponent = styled.div`
+    margin-top: 20px;
+    padding: 20px 0;   
+    text-align: center;
+    font-size: 20px;
+`

@@ -9,10 +9,12 @@ export const Container = styled.div`
 `
 
 export const MainConteiner = styled.div`
-    min-height: 100vh;
+    min-height: 5vh;
+    width: 100%;
     background-color:  #000;
     color: #fff;
-    font-size: 2vw;
+    font-size: 15px;
+    text-align: center;
 `
 
 export const Part1 = styled.div`
@@ -24,5 +26,7 @@ export const Part1 = styled.div`
 `
 
 export const Part2 = styled.div`
-    height:  10vh;
+    height:  80px;
+    font-size: 40px;
+    margin-top: 20px;
 `
